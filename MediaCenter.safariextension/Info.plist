@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Marc Hoyois</string>
 	<key>Builder Version</key>
-	<string>10600.4.10.7</string>
+	<string>10600.6.3</string>
 	<key>CFBundleDisplayName</key>
 	<string>Media Center</string>
 	<key>CFBundleIdentifier</key>
@@ -18,8 +18,15 @@
 	<string>15</string>
 	<key>Chrome</key>
 	<dict>
-		<key>Global Page</key>
-		<string>global.html</string>
+		<key>Menus</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>airplay</string>
+				<key>Menu Items</key>
+				<array/>
+			</dict>
+		</array>
 		<key>Toolbar Items</key>
 		<array>
 			<dict>
@@ -30,7 +37,7 @@
 				<key>Image</key>
 				<string>stop.pdf</string>
 				<key>Include By Default</key>
-				<false/>
+				<true/>
 				<key>Label</key>
 				<string>AirPlay</string>
 				<key>Palette Label</key>
@@ -44,16 +51,20 @@
 	<dict>
 		<key>Scripts</key>
 		<dict>
+			<key>End</key>
+			<array>
+				<string>mediacenter-injected.js</string>
+			</array>
 			<key>Start</key>
 			<array>
-				<string>injected.js</string>
+				<string>mediacenter-injected.js</string>
 			</array>
 		</dict>
 	</dict>
 	<key>Description</key>
 	<string>Play media content in QuickTime Player or on Apple TV</string>
 	<key>DeveloperIdentifier</key>
-	<string>GY5KR7239Q</string>
+	<string>YU4CU3WC22</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
